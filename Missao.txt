@@ -2,3 +2,6 @@ Aluno
 Curso
 Turma
 Professor
+
+
+Otimo trabalho. Proxima missao é descobrir as 6 dezenas
