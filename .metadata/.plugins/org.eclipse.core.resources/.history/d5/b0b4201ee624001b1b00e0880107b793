@@ -1,0 +1,64 @@
+package br.com.unixyz.beans;
+
+/*
+ * Design Pattern -> coleção de boas praticas (padrões) OO (orientacao a objetos)
+ * DTO -> ensina a melhor forma de criar uma classe modelo
+ */
+
+
+public class Aluno {
+	
+	private int rm;
+	private String nome;
+	private String email;
+	// para montar os metodos set e get clicar em Source -> Generates and Setters
+	
+	public int getRm() {
+		return rm;
+	}
+	public void setRm(int rm) { // preencher
+		this.rm = rm;  // usa o this para apontar quem é o atributo
+	}
+	public String getNome() { //get retornar
+		return nome;
+	}
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+	public String getEmail() {
+		return email;
+	}
+	public void setEmail(String email) {
+		this.email = email;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+}

@@ -1,0 +1,25 @@
+package variaveis;
+
+public class Tipos {
+
+	public static void main(String[] args) {
+		// sintaxe: <tipo do dado> <nome da variavel/objeto>;
+		// Tipo númerico -> int (inteiro) ou double (casa decimal) , Tipo Alfanumerico  -> String
+		
+		String nome = "Michelle Dias";
+		int idade = 42;
+		double altura = 1.57;
+		
+		System.out.println ("Nome: " + nome);
+		System.out.println ("Idade: " + idade);
+		System.out.println("Altura: " + altura);	
+		
+	
+	
+	
+	
+	
+	}
+	
+
+}

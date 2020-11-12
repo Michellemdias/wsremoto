@@ -1,0 +1,13 @@
+package br.com.liveup.modelo;
+
+public class Elevador {
+
+	private int andarAtual;
+	private int andarMaximo;
+	private int andarMinino;
+	private int capacidadePessoas;
+	private int qtdePessoas;
+	private String nome;
+	
+	
+}

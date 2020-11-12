@@ -1,0 +1,18 @@
+package decisao;
+
+public class DesafioComposta {
+
+	public static void main(String[] args) {
+		/*
+		 * Solicite o nome de um produto e qtde em estoque
+		 * Se a qtde estiver entre 20 e 40 deve retornar "estoque normal"
+		 * Se a qtde estiver entre 41 e 60 deve retornar "estoque alto"
+		 * Se a qtde for maior que 60 deve retornar estoque lotado
+		 * Se a qtde for menor que 20 deve retornar estoque baixo
+		 */
+
+		
+		
+	}
+
+}

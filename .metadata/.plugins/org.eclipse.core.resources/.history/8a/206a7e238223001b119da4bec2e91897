@@ -1,0 +1,14 @@
+package repeticao;
+
+import javax.swing.JOptionPane;
+
+public class ExemploDo {
+
+	public static void main(String[] args) {
+		int qtde = Integer.parseInt(JOptionPane.showInputDialog("Qtde"));
+		float valor = Float.parseFloat(JOptionPane.showInputDialog("Valor"));
+		System.out.println("Total: " + (qtde*valor));
+
+	}
+
+}

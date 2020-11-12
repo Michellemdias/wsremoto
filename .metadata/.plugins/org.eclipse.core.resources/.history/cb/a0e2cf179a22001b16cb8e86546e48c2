@@ -1,0 +1,24 @@
+package variaveis;
+
+public class Itau {
+// método main é a execução , todo método vem seguido de ()
+	public static void main(String[] args) {
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	} // fecha o método
+
+} // fecha a classe

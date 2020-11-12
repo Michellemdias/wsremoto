@@ -1,0 +1,53 @@
+package variaveis;
+
+public class Tipos {
+
+	public static void main(String[] args) {
+		// sintaxe: <tipo do dado> <nome da variavel/objeto>;
+		// Tipo númerico -> int (inteiro) ou double (casa decimal) , Tipo Alfanumerico  -> String
+		
+		String nome = "Michelle Dias";
+		int idade = 42;
+		double altura = 1.57;
+		double peso = 59.00;
+		
+		
+		System.out.println ("Nome: " + nome);
+		System.out.println ("Idade: " + idade + " anos");
+		System.out.println("Altura: " + altura + " metros");	
+		System.out.println("Peso: " + peso + " kilos");
+		
+		
+		double imc = peso / (altura * altura);
+		
+		// /n é um quebra linha
+		// No printf() usamos:
+		// %s => para String
+		// %f => para números reais
+		// %d => para números inteiros
+		System.out.printf ("IMC calculado: %.2f\n\n" , imc);
+		System.out.printf ("%s seu imc é: %.2f\n", nome, imc);
+	
+		/*
+		 * Identificador (nome de classe, nome de metodo, nome de variavel)
+		 * Regras:
+		 * 1º) Não começaras com números
+		 * 2º) Não utilizarás palavras reservadas da linguagem, exemplo class, int, if...
+		 * 3º) Não farás uso de caracteres especiais no nome das variaveis. Ex: @ , ^...
+		 * 
+		 * Padrões:
+		 * 1º) Nomes significativos
+		 * 2º) Utilizar o padrão CamelCase. Correto: dataDeNascimento ou data_de_nascimento. Errado: datadenascimento
+		 * 3º) Respeite as caixas e os padrões dos recursos: 
+		 * Classe: SEMPRE começa com letra maiscula
+		 * Varivavel: Sempre começa com letra minuscula (substantivo)
+		 * Método: Sempre começa com letra minuscula e é seguido de parenteses (verbo)
+		 * 
+		 */
+	
+	
+	
+	} // fechando método
+	
+
+} // fechando classe

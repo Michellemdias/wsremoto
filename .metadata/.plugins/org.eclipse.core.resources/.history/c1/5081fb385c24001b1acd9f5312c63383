@@ -1,0 +1,11 @@
+package br.com.liveup.implementacao;
+
+public class TesteElevador {
+
+	public static void main(String[] args) {
+		Elevador objeto = new Elevador();
+		
+
+	}
+
+}

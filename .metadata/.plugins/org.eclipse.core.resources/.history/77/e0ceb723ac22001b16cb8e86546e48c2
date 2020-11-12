@@ -1,0 +1,11 @@
+package variaveis;
+
+public class Tipos {
+
+	public static void main(String[] args) {
+		// sintaxe: <tipo do dado> <nome da variavel/objeto>;
+		// Tipo númerico -> Int (inteiro) ou Double (casa decimal) , Tipo Alfanumerico  -> String
+
+	}
+
+}

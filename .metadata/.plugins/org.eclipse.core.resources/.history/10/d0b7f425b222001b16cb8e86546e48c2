@@ -1,0 +1,36 @@
+package variaveis;
+
+public class Entrada {
+
+	public static void main(String[] args) {
+		 // classe JOptionPane representa a tela de imput.
+		
+		String nome = JOptionPane;
+		int idade = 42;
+		double altura = 1.57;
+		double peso = 59.00;
+		
+		
+		System.out.println ("Nome: " + nome);
+		System.out.println ("Idade: " + idade + " anos");
+		System.out.println("Altura: " + altura + " metros");	
+		System.out.println("Peso: " + peso + " kilos");
+		
+		
+		double imc = peso / (altura * altura);
+		
+		// /n é um quebra linha
+		// No printf() usamos:
+		// %s => para String
+		// %f => para números reais
+		// %d => para números inteiros
+		System.out.printf ("IMC calculado: %.2f\n\n" , imc);
+		System.out.printf ("%s seu imc é: %.2f\n", nome, imc);
+	
+	
+	
+	
+	} // fechando método
+	
+
+} // fechando classe
