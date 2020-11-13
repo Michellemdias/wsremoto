@@ -8,6 +8,8 @@ import br.com.ecommerce.util.Magica;
 
 public class ImplementarVenda {
 
+	
+	
 	public static void main(String[] args) {
 		Venda venda = new Venda(
 				Magica.f("Total"),
@@ -18,21 +20,14 @@ public class ImplementarVenda {
 						Magica.s("CPF"),
 						new Endereco()
 						),
-				new Produto(
-						Magica.s("Descrição"),
-						Magica.f("Venda"),
-						Magica.f("Compra"),
-						Magica.i("id"),
-						Magica.i("Qtde")
-
-						) 
-
+				new Produto() 
+				
 				) ;
 
 		System.out.println(venda.getAll());
-
-
-
+		
+		
+		
 	}
 
 }

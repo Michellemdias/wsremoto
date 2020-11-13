@@ -16,6 +16,9 @@ public class Magica {
 	public static int i(String msg) {
 		return Integer.parseInt(s(msg));
 	}
-	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
 
 }
