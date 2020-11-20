@@ -2,6 +2,12 @@ package br.com.bankofoz.beans;
 
 import br.com.bakofoz.util.PadraoConta;
 
+/*
+ * POLIMORFISMO: ocorre quando temos dois metodos com o mesmo nome, fazendo ações diferentes
+ * Override (sobrescrita): quando os metodos estão em classes diferentes (Ex. getAll())
+ * Overload (sobrecarga): quando os métodos estão na mesma classe - devem possuir assinaturas diferentes - parametro
+  */
+
 public class Conta implements PadraoConta{
 
 
